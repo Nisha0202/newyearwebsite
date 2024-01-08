@@ -8,7 +8,7 @@ p {
     font-family: 'Inter', sans-serif;
 }
 
-body{
+body {
     margin: 0px;
 }
 
@@ -45,13 +45,62 @@ header {
     color: var(--white);
 }
 
-.head-text > h4 {
+.head-text>h4 {
     font-size: 28px;
     font-weight: lighter;
 }
 
-.head-text > h1 {
+.head-text>h1 {
     font-size: 70px;
     font-weight: bolder;
     line-height: 60%;
+}
+
+/* article style */
+/* section1 */
+
+.section1{
+    display: block;
+    /* justify-content: center; */
+}
+
+.section1-text {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+.section1-text>h1 {
+    font-size: 88px;
+    font-weight: bolder;
+    margin: 0;
+    padding-top: 40px;
+    letter-spacing: 0.5px;
+    color: var(--primary-color);
+}
+.section1-text > h4 {
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0px;
+    margin: 0px;
+    padding: 40px 0px 10px;
+    color: var(--primary-color);
+}
+.section1-text >h2 {
+    font-weight: bolder;
+    font-size: 46px;
+    margin: 0px;
+    color: var(--black);
+}
+
+.section1-image{
+    height: 500px;
+    width: 770px;
+    background-image: url("/resources/New\ Year\ Photo.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+
+
 }
