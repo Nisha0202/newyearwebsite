@@ -59,7 +59,7 @@ header {
 /* article style */
 /* section1 */
 
-.section1{
+.section1 {
     display: block;
     /* justify-content: center; */
 }
@@ -69,6 +69,7 @@ header {
     text-align: center;
     margin: 0px;
 }
+
 .section1-text>h1 {
     font-size: 88px;
     font-weight: bolder;
@@ -77,7 +78,8 @@ header {
     letter-spacing: 0.5px;
     color: var(--primary-color);
 }
-.section1-text > h4 {
+
+.section1-text>h4 {
     font-weight: 500;
     font-size: 24px;
     letter-spacing: 0px;
@@ -85,14 +87,15 @@ header {
     padding: 40px 0px 10px;
     color: var(--primary-color);
 }
-.section1-text >h2 {
+
+.section1-text>h2 {
     font-weight: bolder;
     font-size: 46px;
     margin: 0px;
     color: var(--black);
 }
 
-.section1-image{
+.section1-image {
     height: 500px;
     width: 770px;
     background-image: url("/resources/New\ Year\ Photo.png");
@@ -101,6 +104,64 @@ header {
     justify-content: center;
     align-items: center;
     margin: 40px auto;
+}
 
+.section2 {
+    /* align-items: center;
+    text-align: center; */
+    margin: 120px 100px;
+    border-radius: 16px;
+    background-image: url("/resources/Vectorrr.png");
+    object-fit: fill;
+    width: 1320px;
+    height: 600px;
+}
 
+.section2-shadow {
+    border-radius: 16px;
+    width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(to right, black, transparent);
+    display: flex;
+    /* justify-content: center */
+    align-items: center;
+}
+
+.section2-text {
+    width: 642px;
+    margin-left: 126px;
+}
+
+.section2-text>h1 {
+    color: var(--white);
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 84px;
+    margin: 30px 0px;
+    letter-spacing: 7.04px;
+}
+.section2-text>p {
+    font-family: 'Inter', sans-serif;
+    color: rgb(166, 165, 165);
+    margin-bottom: 48px;
+    line-height: 26px;
+    font-size: 18px;
+    font-weight: lighter;
+
+}
+.section2-text>a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin: 0px 32px;
+}
+a:hover {
+    color: #F00;
+}
+
+.section2-image{
+    margin: 70px 40px;
 }
