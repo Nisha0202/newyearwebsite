@@ -1,0 +1,57 @@
+:root {
+    --primary-color: #F00;
+    --black: #070211;
+    --white: white;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+/* header-style */
+header {
+    align-items: center;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    margin: 50px 100px;
+    border-radius: 16px;
+}
+
+.header-image {
+    background-image: url("/resources/Banner\ Image.png");
+    object-fit: fill;
+    width: 1320px;
+    height: 600px;
+}
+
+.header-shadow {
+    border-radius: 16px;
+    width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(to bottom, black, transparent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.head-text {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    color: var(--white);
+}
+
+.head-text > h4 {
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+.head-text > h1 {
+    font-size: 70px;
+    font-weight: bolder;
+    line-height: 60%;
+}
