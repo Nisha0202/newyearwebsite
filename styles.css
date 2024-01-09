@@ -216,12 +216,6 @@ a:hover {
 
 }
 
-
-
-
-
-
-
 /* section6 */
 .section6 {
     width: 1320px;
@@ -395,4 +389,112 @@ footer{
 
 .footer-section > img{
     padding: 12px;
+}
+
+/* bonus */
+.section4{
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section4-text1{
+    width: 390px;
+}
+.section4-text1 > h6{
+    color: var(--primary-color);
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.section4-text1 > h2{
+    font-family: 'Merriweather', serif;
+    color: var(--black);
+    font-size: 48px;
+    margin: 0px;
+    font-weight: bolder;
+}
+.section4-text1 > p{
+    font-family: 'Inter', sans-serif;
+    color: rgb(141, 141, 141);
+    margin-bottom: 48px;
+    line-height: 40px;
+    font-size: 18px;
+    margin: 22px 0px;
+    font-weight: lighter;
+}
+.section4-image{
+    width: 405px;
+    height: 405px;
+  border: 12px solid var(--primary-color);
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+
+}
+.section4-image > img{
+    width: 360px;
+    height: 360px;
+}
+.section4-text2{
+    width: 280px;
+
+}
+.section4-text2 > .text2 > h5{
+    color: var(--primary-color);
+    font-size: 48px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.section4-text2 > .text2 >p{
+    font-family: 'Inter', sans-serif;
+    color: rgb(141, 141, 141);
+    margin-bottom: 48px;
+    line-height: 40px;
+    font-size: 18px;
+    margin: 12px 0px;
+    font-weight: lighter;
+}
+.section4-text2 > .image2 {
+  width: 140px;
+  height: 140px;
+  padding: 16px 0px 0px;
+  margin: 0px;
+}
+.section5{
+    width: 1320px;
+    height: 280px;
+    margin: 50px auto;
+    display: grid;
+    place-items: center;
+}
+.section5 > h6{
+    font-family: 'Inter', sans-serif;
+    color: var(--black);
+    letter-spacing: 0.5px;
+    font-size: 22px;
+    margin: 12px 0px;
+    font-weight: normal;
+}
+.section5 > h1{
+    font-size: 70px;
+    font-weight: bolder;
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+
+}
+.section5 > p{
+    width: 1070px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: rgb(141, 141, 141);
+    margin-bottom: 48px;
+    line-height: 40px;
+    font-size: 18px;
+    margin: 16px 0px;
+    font-weight: lighter;
 }
